@@ -7,7 +7,7 @@ namespace WebApplication3.Controllers
     {
         public ViewResult Run()
         {
-            return View("SpecRunner");
+            return sView("SpecRunner");
         }
     }
 }
