@@ -6,7 +6,11 @@ describe("Player", function() {
     player = new Player();
     song = new Song();
   });
-
+    it("should make an AJAX request to the correct URL", function () {
+        spyOn($, "ajax");
+        getProduct(123);
+        expect($.ajax.calls.mostRecent().args[0]["url"]).toEqual("/products/123");
+    });
   it("should be able to play a Song", function() {
     player.play(song);
     expect(player.currentlyPlayingSong).toEqual(song);

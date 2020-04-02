@@ -1,17 +1,23 @@
-﻿{
+{
   "Framework": "jasmine",
   "EnableCodeCoverage": "true",
   "CodeCoverageExcludes": [
-     "*\\vendor\\*"
+    "*\\vendor\\*"
   ],
   "CodeCoverageIgnores": [
-     "*\\Test\\*"
+    "*\\Test\\*"
   ],
   "References": [
     { "Path": "vendor/jquery-2.1.4.js" },
-    { "Path": "Modules", "Include": "*.js" }
+    {
+      "Path": "Scripts/jasmine",
+      "Include": "*.js"
+    }
   ],
   "Tests": [
-    { "Path": "Test", "Include": "*.js" }
+    {
+      "Path": "Scripts/jasmine-samples",
+      "Include": "*.js"
+    }
   ]
 }

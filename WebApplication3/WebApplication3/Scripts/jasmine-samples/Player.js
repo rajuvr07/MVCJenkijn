@@ -20,3 +20,11 @@ Player.prototype.resume = function() {
 Player.prototype.makeFavorite = function() {
   this.currentlyPlayingSong.persistFavoriteStatus(true);
 };
+function getProduct(id) {
+    $.ajax({
+        type: "GET",
+        url: "/products/" + id,
+        contentType: "application/json; charset=utf-8",
+        dataType: "json"
+    });
+}
