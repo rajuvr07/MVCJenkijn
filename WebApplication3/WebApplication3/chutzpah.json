@@ -10,21 +10,11 @@
   "References": [
     { "Path": "vendor/jquery-2.1.4.js" },
     {
-      "Path": "scripts/jasmine/",
-      "Include": "*.js"
-    },
-    { "Path": "vendor/jquery-2.1.4.js" },
-    {
       "Path": "Modules",
       "Include": "*.js"
     }
   ],
   "Tests": [
-    {
-      "Path": "/scripts/jasmine-samples/",
-      "Include": "*.js"
-    },
-
     {
       "Path": "Test",
       "Include": "*.js"

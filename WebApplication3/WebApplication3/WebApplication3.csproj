@@ -139,6 +139,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Modules\jasmine.js" />
+    <Content Include="Modules\Player.js" />
+    <Content Include="Modules\Song.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="chutzpah.json" />
@@ -151,7 +154,9 @@
     <Content Include="Scripts\jasmine\console.js" />
     <Content Include="Scripts\jasmine\jasmine-html.js" />
     <Content Include="Scripts\jasmine\jasmine.js" />
-    <Content Include="Scripts\jquery-3.3.1.js" />
+    <Content Include="Test\PlayerSpec.js" />
+    <Content Include="Test\SpecHelper.js" />
+    <Content Include="vendor\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
