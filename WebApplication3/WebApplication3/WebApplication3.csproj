@@ -134,7 +134,6 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\jasmine\jasmine.css" />
     <Content Include="Content\jasmine\jasmine_favicon.png" />
-    <Content Include="emma\coverage.xml" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -169,7 +168,6 @@
     <Content Include="Scripts\StringCalculator.js" />
     <Content Include="Specs\StringCalculatorTests.js" />
     <Content Include="Test.js" />
-    <Content Include="tests.xml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -188,6 +186,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="emma\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
