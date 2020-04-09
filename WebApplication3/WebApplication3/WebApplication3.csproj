@@ -154,7 +154,7 @@
     <Content Include="Scripts\jasmine\jasmine-html.js" />
     <Content Include="Scripts\jasmine\jasmine.js" />
     <Content Include="Test\PlayerSpec.js" />
-    <Content Include="Test\SpecHelper.js" />
+    <Content Include="Scripts\SpecHelper.js" />
     <Content Include="vendor\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.js" />
