@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<report name="Chutzpah Coverage">
+  <package name="Chutzpah Coverage">
+   <sourcefile name="D:\Studies\Jenkins\MVC\WebApplication3\ClientTest\Test\Ers.UI.Web\Areas\Financials\Views\BankStatementAnalysis\Scripts\mathUtilSpec.js">
+     <line nr="11" mi="0" ci="1"/> 
+     <line nr="12" mi="0" ci="1"/> 
+     <line nr="15" mi="0" ci="1"/> 
+     <line nr="16" mi="0" ci="4"/> 
+     <line nr="19" mi="0" ci="1"/> 
+     <line nr="22" mi="0" ci="1"/> 
+     <line nr="23" mi="0" ci="1"/> 
+     <line nr="27" mi="0" ci="1"/> 
+     <line nr="28" mi="0" ci="1"/> 
+     <line nr="32" mi="0" ci="1"/> 
+     <line nr="33" mi="0" ci="1"/> 
+     <line nr="37" mi="0" ci="1"/> 
+     <line nr="38" mi="0" ci="1"/> 
+     <line nr="39" mi="0" ci="1"/> 
+     <counter type="LINE" missed="0" covered="14" />
+   </sourcefile>
+  </package>
+  <counter type="LINE" missed="0" covered="14" />
+</report>
