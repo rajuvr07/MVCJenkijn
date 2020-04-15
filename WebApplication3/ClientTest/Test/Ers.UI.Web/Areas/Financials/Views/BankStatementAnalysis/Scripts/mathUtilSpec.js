@@ -20,7 +20,7 @@ describe("MathUtils", function () {
 
         //Spec for sum operation
         it("should be able to calculate sum of 3 and 5", function () {
-            expect(calc.sum(3, 5)).toEqual(8);
+            expect(calc.sum(3, 5)).toEqual(4);
         });
 
         //Spec for multiply operation
