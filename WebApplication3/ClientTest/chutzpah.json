@@ -1,9 +1,24 @@
 {
   "Framework": "jasmine",
   "EnableCodeCoverage": "true",
+  "CodeCoverageExecutionMode": "Always",
 
   "CodeCoverageIncludes": [
     "*\\test\\*"
+  ],
+  "Transforms": [
+    {
+      "Name": "jacoco",
+      "Path": "ChutzpahJacoco.xml"
+    },
+    {
+      "Name": "lcov",
+      "Path": "ChutzpahJS.lcov"
+    },
+    {
+      "Name": "coveragehtml",
+      "Path": "ChutzpahJS.html"
+    }
   ],
   "References": [
     {
