@@ -1,0 +1,22 @@
+{
+  "Framework": "jasmine",
+  "EnableCodeCoverage": "true",
+  
+  "CodeCoverageIncludes": [
+    "test/ers.ui.web/areas/financials/views/bankstatementanalysis/scripts/mathutilspec.js"
+  ],
+  "References": [
+    {
+      "Path": "../webapplication3/scripts/jquery-3.3.1.min.js"
+    },
+    {
+      "Path": "../webapplication3/views/home/scripts/mathutil.js"
+    }
+  ],
+  "Tests": [
+    {
+      "Path": "test/ers.ui.web/areas/financials/views/bankstatementanalysis/scripts/mathutilspec.js",
+      "Include": "*.js"
+    }
+  ]
+}
