@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <report>
  <stats>
-  <srcfiles value="0" />
-  <srclines value="0" />
+  <srcfiles value="1" />
+  <srclines value="14" />
  </stats>
  <data>
   <all name="all classes">
-   <coverage type="line, %" value="NaN% (0/0)" />
+   <coverage type="line, %" value="86% (12/14)" />
+   <srcfile name="D:\Studies\Jenkins\MVC\WebApplication3\ClientTest\Test\Ers.UI.Web\Areas\Financials\Views\BankStatementAnalysis\Scripts\mathUtilSpec.js">
+    <coverage type="line, %" value="86% (12/14)" />
+   </srcfile>
   </all>
  </data>
 </report>
