@@ -8,14 +8,15 @@
   ],
   "Transforms": [
     {
-      "Name": "coverageHtml",
-      "Path": "testresults/ChutzpahCoverage.html"
+      "Name": "emma",
+      "Path": "emma.xml"
     },
     {
-      "Name": "coverageHtml",
-      "Path": "ChutzpahCoverage.html"
+      "Name": "coveragehtml",
+      "Path": "coveragehtml.html"
     }
   ],
+  
   "References": [
     {
       "Path": "../webapplication3/scripts/jquery-3.3.1.min.js"
