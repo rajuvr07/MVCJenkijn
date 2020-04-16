@@ -9,7 +9,11 @@
   "Transforms": [
     {
       "Name": "coverageHtml",
-      "Path": "test results/ChutzpahCoverage.html"
+      "Path": "testresults/ChutzpahCoverage.html"
+    },
+    {
+      "Name": "coverageHtml",
+      "Path": "ChutzpahCoverage.html"
     }
   ],
   "References": [
