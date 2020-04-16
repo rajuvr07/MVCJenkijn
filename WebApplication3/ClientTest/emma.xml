@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<report>
+ <stats>
+  <srcfiles value="0" />
+  <srclines value="0" />
+ </stats>
+ <data>
+  <all name="all classes">
+   <coverage type="line, %" value="NaN% (0/0)" />
+  </all>
+ </data>
+</report>
