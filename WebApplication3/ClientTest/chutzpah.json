@@ -8,10 +8,6 @@
   ],
   "Transforms": [
     {
-      "Name": "coverageXML",
-      "Path": "test results/ChutzpahCoverage.xml"
-    },
-    {
       "Name": "coverageHtml",
       "Path": "test results/ChutzpahCoverage.html"
     }
