@@ -6,17 +6,17 @@
   "CodeCoverageIncludes": [
     "*\\test\\*"
   ],
-  //"Transforms": [
-  //  {
-  //    "Name": "emma",
-  //    "Path": "emma.xml"
-  //  },
-  //  {
-  //    "Name": "coveragehtml",
-  //    "Path": "coveragehtml.html"
-  //  }
+  "Transforms": [
+    {
+      "Name": "emma",
+      "Path": "emma.xml"
+    },
+    {
+      "Name": "coveragehtml",
+      "Path": "coveragehtml.html"
+    }
    
-  //],
+  ],
   
   "References": [
     {
