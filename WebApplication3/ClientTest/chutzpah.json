@@ -8,16 +8,12 @@
   ],
   "Transforms": [
     {
-      "Name": "jacoco",
-      "Path": "ChutzpahJacoco.xml"
+      "Name": "coverageXML",
+      "Path": "test results/ChutzpahCoverage.xml"
     },
     {
-      "Name": "lcov",
-      "Path": "ChutzpahJS.lcov"
-    },
-    {
-      "Name": "coveragehtml",
-      "Path": "ChutzpahJS.html"
+      "Name": "coverageHtml",
+      "Path": "test results/ChutzpahCoverage.html"
     }
   ],
   "References": [
