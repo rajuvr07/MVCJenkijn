@@ -24,12 +24,12 @@ describe("MathUtils", function () {
         });
 
         //Spec for multiply operation
-        it("should be able to multiply 10 and 40", function () {
+        xit("should be able to multiply 10 and 40", function () {
             expect(calc.multiply(10, 40)).toEqual(400);
         });
 
         //Spec for factorial operation for positive number
-        it("should be able to calculate factorial of 9", function () {
+        xit("should be able to calculate factorial of 9", function () {
             expect(calc.factorial(9)).toEqual(362880);
         });
 
