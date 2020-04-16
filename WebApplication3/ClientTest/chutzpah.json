@@ -14,7 +14,7 @@
     {
       "Name": "coveragehtml",
       "Path": "coveragehtml.html"
-    }
+    },
     {
       "Name": "junit",
       "Path": "junit.html"
