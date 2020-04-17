@@ -1,0 +1,36 @@
+{
+  "Framework": "jasmine",
+  "EnableCodeCoverage": "true",
+  "CodeCoverageExecutionMode": "Always",
+
+  "CodeCoverageIncludes": [
+    "*\\test\\*"
+  ],
+  "Transforms": [
+    {
+      "Name": "emma",
+      "Path": "TestResults.xml"
+    },
+    {
+      "Name": "coveragehtml",
+      "Path": "TestResults.html"
+    }
+
+  ],
+
+  "References": [
+    {
+      "Path": "../webapplication3/scripts/jquery-3.3.1.min.js"
+    },
+    {
+      "Path": "../webapplication3/views/",
+      "Include": "*.js"
+    }
+  ],
+  "Tests": [
+    {
+      "Path": "test",
+      "Include": "*.js"
+    }
+  ]
+}

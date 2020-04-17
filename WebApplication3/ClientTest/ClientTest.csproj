@@ -54,6 +54,7 @@
     <Content Include="Test\Ers.UI.Web\Areas\Financials\Views\BankStatementAnalysis\Scripts\MathUtilSpec.js" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="chutzpah.json" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />
